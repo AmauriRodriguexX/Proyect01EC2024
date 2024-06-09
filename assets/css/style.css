@@ -1,0 +1,696 @@
+/*  Fonts INTER   */
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('../fonts/INTER/Inter-Black.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/INTER/Inter-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('../fonts/INTER/Inter-ExtraBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-ExtraLight';
+    src: url('../fonts/INTER/Inter-ExtraLight.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('../fonts/INTER/Inter-Light.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../fonts/INTER/Inter-Medium.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/INTER/Inter-Regular.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('../fonts/INTER/Inter-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter-Thin';
+    src: url('../fonts/INTER/Inter-Thin.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/*  Amor  */
+@font-face {
+    font-family: 'AmorSansPro';
+    src: url('../fonts/Amor/AmorSansPro.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSansProBold';
+    src: url('../fonts/Amor/AmorSansProBold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSansProItalic';
+    src: url('../fonts/Amor/AmorSansProItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmorSansProBoldItalic';
+    src: url('../fonts/Amor/AmorSansProBoldItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSansTextPro';
+    src: url('../fonts/Amor/AmorSansTextPro.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSansTextProBold';
+    src: url('../fonts/Amor/AmorSansTextProBold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSansTextProBoldItalic';
+    src: url('../fonts/Amor/AmorSansTextProBoldItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSansTextProItalic';
+    src: url('../fonts/Amor/AmorSansTextProItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifPro';
+    src: url('../fonts/Amor/AmorSerifPro.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifProBold';
+    src: url('../fonts/Amor/AmorSerifProBold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifProBoldItalic';
+    src: url('../fonts/Amor/AmorSerifProBoldItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifProItalic';
+    src: url('../fonts/Amor/AmorSerifProItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifTextPro';
+    src: url('../fonts/Amor/AmorSerifTextPro.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifTextProBold';
+    src: url('../fonts/Amor/AmorSerifTextProBold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifTextProBoldItalic';
+    src: url('../fonts/Amor/AmorSerifTextProBoldItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'AmorSerifTextProItalic';
+    src: url('../fonts/Amor/AmorSerifTextProItalic.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/*  Bree  */
+@font-face {
+    font-family: 'BreeBold';
+    src: url('../fonts/Bree/BreeBold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeExtrabold';
+    src: url('../fonts/Bree/BreeExtrabold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeLight';
+    src: url('../fonts/Bree/BreeLight.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeOblique_Bold';
+    src: url('../fonts/Bree/BreeOblique_Bold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeOblique_Extrabold';
+    src: url('../fonts/Bree/BreeOblique_Extrabold.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeOblique_Light';
+    src: url('../fonts/Bree/BreeOblique_Light.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeOblique_Reg';
+    src: url('../fonts/Bree/BreeOblique_Reg.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeOblique_Thin';
+    src: url('../fonts/Bree/BreeOblique_Thin.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeRegular';
+    src: url('../fonts/Bree/BreeRegular.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeSerif-Regular';
+    src: url('../fonts/Bree/BreeSerif-Regular.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BreeThin';
+    src: url('../fonts/Bree/BreeThin.otf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+h3{
+    font-family: 'BreeRegular';
+    color: #CE0058;
+
+}
+h4{
+    font-family: 'BreeRegular';
+    color:#D50057;
+}
+h5{
+    font-family: 'Inter-Bold';
+    font-size: 1.1rem;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter-Regular';
+    color: #252A2D;
+}
+main{
+    padding-top:100px;
+}
+img{
+    max-width:100%;
+}
+h3{
+    font-size: 48px;
+}
+main h1{
+    color: #CE0058;
+    font-family: 'BreeBold';
+    font-size: 64px;
+}
+header,footer{
+    background-color: #FFFFFF;
+    min-height: 57px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+
+}
+header img{
+    max-width: 134px;
+    margin: 0 auto;
+    display: block;
+}
+header .container{
+    padding: 15px 0;
+}
+aside a:hover{
+    color: #CE0058;
+    text-decoration:underline;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    color: #252A2D;
+    font-size: 13px;
+    font-family: 'AmorSansPro';
+}
+aside a.title:hover{
+    
+    text-decoration:none;
+}
+aside a.title{
+    color: #CE0058;
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: 'AmorSansProBold';
+    font-weight:bold;
+}
+aside a.Editables{
+    font-family: 'AmorSansProItalic';
+    color: #847770;
+}
+img{
+    max-width:100%;
+}
+.Desktop{
+    display: block;
+}
+.Mobile{
+    display:none;
+}
+p{
+    font-size: 18px;
+}
+.slick-slide img{
+    padding:0 5px;
+}
+.slick-dotted.slick-slider{
+    max-width:100%;
+}
+
+/* Nuestra Marca */
+
+.articleRectangle{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.articleRectangle span{
+    font-family: 'BreeRegular';
+}
+.articleRectangle span.title{
+    font-size: 2rem;
+}
+#tonoyvoz .articleRectangle span.title{
+    font-size: 1em;
+    width: 60%;
+    position: relative;
+    display: block;
+    margin: 0vw auto 0 auto;
+    text-align: left;
+}
+#tonoyvoz span.gray{
+    color: #847770;
+    font-family: 'BreeRegular';
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+.rectangle{
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+#tipscomunicacion article p strong{
+    font-family: 'Inter-Bold';
+}
+#tipscomunicacion article.row p{
+    font-family: 'Inter-Regular';
+    padding-top: 30px;
+}
+.borderLeft p{
+    border-right: solid 2px #D50057;
+    padding-right: calc(var(--bs-gutter-x) * 1);
+}
+#introduccion .articleRectangle:first-child span{
+    display: block;
+    padding: 0 0 1.25vw 0;
+}
+#introduccion .articleRectangle:nth-child(2) span{
+    display: block;
+    padding: 0 0 0 0;
+}
+#iconFlecha{
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    width: 30px;
+    z-index: 99;
+}
+main{
+    border-bottom: #000000 solid 1px;
+}
+.btn{
+    background: #CE0058;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    width: 230px;
+}
+.btn:hover, .btn:active{
+    background: #CE0058 !important;
+    color: white !important;
+}
+.btn.downloadIcon{
+    width: 330px;
+}
+footer{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+footer .container{
+    text-align: center;
+    padding: 20px 0 35px 0;
+    font-size: 14px;
+}
+footer .container img{
+    height: 25px;
+    vertical-align: bottom;
+    padding-bottom: 6px;
+    margin: 0 5px;
+}
+.modal-header{
+    border:none;
+}
+.modal-header span.modal-title{
+    font-family: 'Inter-Bold';
+    font-size: 26px !important;
+    color: #252A2D;
+    margin-right: -120px;
+}
+.modal{
+    --bs-modal-width:1200px;
+}
+.modal-header .btn-close{
+    margin:0;
+}
+#divDownloadPostal, #divDownloadLonas{
+    display: none;
+    box-shadow: 2px 6px 18px #00000029;
+    border-radius: 24px;
+    padding: 30px 60px;
+    position: absolute;
+    z-index: 9;
+    background: white;
+    top: 90px;
+    right: 4%;
+}
+#divDownloadPostal > div.active, #divDownloadLonas > div.active{
+    opacity: 1;
+}
+#divDownloadPostal > div, #divDownloadLonas > div{
+    position:relative;
+    cursor: pointer;
+    opacity: 0.7;
+}
+#divDownloadPostal > div > img, #divDownloadLonas > div > img{
+    right: 0;
+    position: absolute;
+}
+.modal-content{
+    padding:0px 30px;
+}
+.collapsed 
+.navbar-toggler-icon{
+    background-image: url(../img/icon_menu.png);
+}
+.navbar-toggler-icon{
+    background-image: url(../img/icon_menu_cerrar.png);
+    height: 40px;
+    width: 40px;
+}
+
+.modal-body img{
+    display: block;
+    margin: 0 auto;
+    max-width: 65%;
+}
+.modal-body span{
+    text-align: center;
+    color: #847770;
+    font-size: 16px;
+    display: block;
+}
+.btn.displayDownloadOptions img{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 3px;
+}
+@media (max-width: 992px) {
+    main{
+        margin-left: 7% !important;
+        margin-right: 7% !important;
+        padding-top: 50px;
+        width: 86% !important;
+    }
+    .btn {
+        width: 100%;
+        padding: 16px 10px;
+    }
+    main h1{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .navbar-toggler{
+        border:none;
+        box-shadow: none !important;
+    }
+    .MenuMobile .row{
+        margin:0;
+    }
+    .MenuMobile .navbar{
+        padding:0;
+        background-color: transparent !important;
+    }
+    #menuItems{
+        border-top:#00000029 solid 1px;
+        background-color: white;
+        text-align: left;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 100%;
+        height: 847px;
+        margin-top: 15px;
+    }
+    #menuItems a{
+        font-family: 'AmorSansPro';
+        font-size:16px;
+        padding:2px 0;
+        color: #252A2D !important;
+    }
+    
+    #menuItems a.title{
+        font-family: 'AmorSansProBold';
+        font-weight: bold;
+        padding: 10px 0;
+        color: #CE0058 !important;
+    }
+    header{
+        padding:10px 0;
+    }
+    aside{
+        display:none;
+    }
+    .Desktop{
+        display: none !important;
+    }
+    .Mobile{
+        display:block;
+    }
+    .modal-body img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .modal-header span.modal-title{
+        font-size: 20px !important;
+        display:block;
+        position: absolute;
+        top: 61px;
+        width: 100%;
+        z-index: 9;
+        text-align: center;
+        left: 0;
+    }
+    .btn.downloadIcon{
+        font-size: 13px;
+        width: 100%;
+        padding: 14px 10px;
+    }
+    .modal-body{
+        padding:0
+    }
+    .btn.displayDownloadOptions{
+        display: block;
+        position: absolute;
+        top: 146px;
+        width: 80%;
+        z-index: 9;
+        text-align: center;
+        left: 10%;
+    }
+    footer .container{
+        width: 86%;
+    }
+    header img{
+        margin: 0;
+    }
+}
+@media (max-width: 992px) {
+    .articleRectangle span.title{
+        font-size: 20px;
+    }
+    #introduccion .articleRectangle:first-child span{
+            font-size: 12px;
+            padding: 16px;
+            margin-bottom: 110px;
+    }
+    #introduccion .articleRectangle:nth-child(2) span{
+        padding: 20px;
+    }
+    .articleRectangle{
+        margin-top:20px;
+    }
+    #tonoyvoz span.gray{
+        font-size:17px;
+    }
+    #tonoyvoz .articleRectangle span.title{
+        font-size: 9px;
+        padding-top: 12px;
+    }
+    #tonoyvoz .articleRectangle:nth-child(2) span.title{
+        padding-top: 22px;
+    }
+    #tonoyvoz .articleRectangle:nth-child(3) span.title{
+        padding-top: 13px;
+    }
+    .borderLeft p{
+        border:none;
+        padding:initial
+    }
+    #menuItems a.Editables{
+        font-family: 'AmorSansProItalic';
+        color:#847770 !important;
+    }
+    #divDownloadPostal, #divDownloadLonas{
+        width: 80%;
+        top: 210px;
+        font-size: 14px !important;
+        padding: 30px 20px;
+    }
+    .modal-header .btn-close{
+        margin-bottom: 150px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #introduccion .articleRectangle:nth-child(2) span{
+      font-size: 25px;
+      padding-top: 50px;
+  }
+    .articleRectangle span.title{
+        font-size:40px;
+        padding-top: 32px;
+        display: block;
+    }
+    #introduccion .articleRectangle:first-child span{
+        font-size: 18px;
+        padding-top: 36px;
+    }
+    .articleRectangle{
+        padding-bottom: 100px;
+    }
+    #tonoyvoz br.Mobile{
+        display:none;
+    }
+    #tonoyvoz .articleRectangle span.title{
+        font-size: 14px;
+        padding-top: 44px;
+    }
+    #tonoyvoz .articleRectangle:nth-child(3) span.title{
+        padding-top: 30px;
+    }
+    #tonoyvoz .articleRectangle:nth-child(2) span.title{
+        padding-top:40px
+    }
+    #tipscomunicacion br:first-child,
+    #tipscomunicacion br:nth-child(2),
+    #tipscomunicacion br:nth-child(3){
+        display:none;
+    }
+}
