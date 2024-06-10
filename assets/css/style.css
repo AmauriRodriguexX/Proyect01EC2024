@@ -771,6 +771,13 @@ footer .container img{
     }
 }
 
+@media (max-width: 376px) {
+    .custom-select {
+        width: 320px;
+    }
+}
+
+
 .form-label-left {
     display: flex;
     align-items: center;
