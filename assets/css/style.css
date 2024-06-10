@@ -254,6 +254,13 @@
     font-style: normal;
     font-display: swap;
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100% !important;
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
 h3{
     font-family: 'BreeRegular';
     color: #CE0058;
@@ -873,3 +880,100 @@ hr {
    font-variation-settings: 'slnt' 0;
 }
 
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    padding: 8px;
+    overflow: hidden; /* Añadido para evitar desbordamientos */
+}
+
+@media (max-width: 540px) {
+    .card {
+        width: 50vw;
+        height: 50vw;
+        max-width: 186px;
+        max-height: 186px;
+    }
+}
+
+@media (max-width: 413px) {
+    .card {
+        width: 50vw;
+        height: 50vw;
+        max-width: 179px;
+        max-height: 179px;
+    }
+}
+
+@media (max-width: 391px) {
+    .card {
+        width: 50vw;
+        height: 50vw;
+        max-width: 166px;
+        max-height: 166px;
+    }
+}
+
+@media (max-width: 361px) {
+    .card {
+        width: 50vw;
+        height: 50vw;
+        max-width: 146px;
+        max-height: 146px;
+    }
+}
+
+@media (max-width: 376px) {
+    .card {
+        width: 50vw;
+        height: 50vw;
+        max-width: 164px;
+        max-height: 164px;
+    }
+}
+
+.body-content-card {
+    margin-top: 16px;
+}
+
+.body-content-card .tittle-card-01 {
+    color: #252A2D;
+}
+
+.body-content-card .sub-card-02 {
+    color: #5E6A71;
+}
+
+
+.img-container {
+    overflow: hidden; /* Asegura que la imagen no se desborde */
+    border-radius: 5px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease; /* Transición para el efecto de zoom */
+}
+
+.zoom-effect:hover .card-img-top {
+    transform: scale(1.2); /* Efecto de zoom */
+}
+
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.left-align {
+    text-align: left !important;
+}
+
+.right-align {
+    text-align: right !important;
+}
+
+.center-align {
+    text-align: center !important;
+}
