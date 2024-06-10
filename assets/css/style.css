@@ -762,7 +762,13 @@ footer .container img{
 .custom-select {
     border: 1px solid #AFB3B6;
     height: 56px;
-    width: 300px;
+    width: 380px;
+}
+
+@media (max-width: 540px) {
+    .custom-select {
+        width: 360px;
+    }
 }
 
 .form-label-left {
