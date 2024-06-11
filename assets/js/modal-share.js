@@ -21,6 +21,19 @@ document.addEventListener('DOMContentLoaded', () => {
         closeModal();
     });
 
+    overlay.addEventListener('touchstart', (event) => {
+        startY = event.touches[0].clientY;
+    });
+
+    overlay.addEventListener('touchmove', (event) => {
+        const moveY = event.touches[0].clientY;
+        const diffY = moveY - startY;
+        
+        if (diffY > 50) { // Adjust the threshold as needed
+            closeModal();
+        }
+    });
+
     popupBottom.addEventListener('touchstart', (event) => {
         startY = event.touches[0].clientY;
     });

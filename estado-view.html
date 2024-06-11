@@ -263,8 +263,10 @@
      <div id="popupBottom" class="popup-bottom">
           <div class="popup-content">
                <div class="header-modal-s">
-                    <div class="dragging-s"></div>
-               </div>
+                    <div class="dragging-s d-block d-md-none"></div> <!-- Visible solo en móviles -->
+                    <span class="close-btn d-none d-md-block">&times;</span> <!-- Visible solo en escritorio -->
+                </div>
+                
                <span class="close-btn" style="display: none;">&times;</span>
                <p class="share-p">Compartir</p>
                <hr class="w-100">
