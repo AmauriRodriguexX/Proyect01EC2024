@@ -488,7 +488,6 @@ footer .container{
     font-size: 14px;
 }
 footer .container img{
-    height: 25px;
     vertical-align: bottom;
     padding-bottom: 6px;
     margin: 0 5px;
@@ -896,6 +895,7 @@ hr {
    font-weight: 400;
    line-height: 24px;
    text-align: center;
+   text-decoration: underline;
    font-variation-settings: 'slnt' 0;
 }
 
@@ -910,8 +910,8 @@ hr {
     .card {
         width: 50vw;
         height: 50vw;
-        max-width: 186px;
-        max-height: 186px;
+        max-width: 185px;
+        max-height: 185px;
     }
 }
 
@@ -919,8 +919,8 @@ hr {
     .card {
         width: 50vw;
         height: 50vw;
-        max-width: 179px;
-        max-height: 179px;
+        max-width: 178px;
+        max-height: 178px;
     }
 }
 
@@ -928,8 +928,8 @@ hr {
     .card {
         width: 50vw;
         height: 50vw;
-        max-width: 166px;
-        max-height: 166px;
+        max-width: 165px;
+        max-height: 165px;
     }
 }
 
@@ -1059,7 +1059,7 @@ hr {
 @media (max-width: 480px) {
     .grid-slider-p {
         padding: 0px;
-        height: 170px;
+        height: 190px;
     }
 }
 
@@ -1130,7 +1130,7 @@ a.prev:hover, a.next:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden !important;
     background-color: rgba(0, 0, 0, 0.81); /* Fondo semitransparente */
     display: flex;
     align-items: center;
@@ -1166,7 +1166,7 @@ a.prev:hover, a.next:hover {
     max-width: 75%; /* Ajusta esto según lo grande que quieras la imagen */
     background: transparent; /* Fondo transparente */
     display: flex;
-    margin-top: 80px;
+    margin-top: 2%;
     justify-content: center;
     flex-direction: column;
     border: transparent; /* Fondo transparente */
@@ -1181,7 +1181,7 @@ a.prev:hover, a.next:hover {
         max-width: 100%; /* Ajusta esto según lo grande que quieras la imagen */
         background: transparent; /* Fondo transparente */
         display: flex;
-        margin-top: 80px;
+        margin-top: 50%;
         justify-content: center;
         flex-direction: column;
         border: transparent; /* Fondo transparente */
@@ -1249,15 +1249,7 @@ a.prev:hover, a.next:hover {
 
 @media (max-width: 480px) {
     .gallery-next {
-        right: 0;
-        border-radius: 50%;
-        width: 32px;
-        height: 32px;
-        font-size:16px;
-        transform: translate(36px, 0px);
-        padding: 12px;
-        display: flex;
-        align-items: center;
+        display: none;
     
     }
        
@@ -1277,15 +1269,7 @@ a.prev:hover, a.next:hover {
 
 @media (max-width: 480px) {
     .gallery-prev {
-        left: 0;
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        font-size:16px;
-        transform: translate(-62px, 0px);
-        padding: 10px;
-        display: flex;
-        align-items: center;
+        display: none;
     }
        
 }
@@ -1302,7 +1286,7 @@ a.prev:hover, a.next:hover {
 
 .modal-footer {
     position: absolute;
-    bottom: 16px; /* Espacio desde el borde inferior */
+    bottom: 24px; /* Espacio desde el borde inferior */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
