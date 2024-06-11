@@ -1136,20 +1136,24 @@ a.prev:hover, a.next:hover {
 
 @media (max-width: 480px) {
     .modal-content {
-        position: relative;
-        margin: auto;
-        padding: 0;
-        width: 100%;
-        max-width: 100%; /* Ajusta esto según lo grande que quieras la imagen */
-        background: transparent; /* Fondo transparente */
+        position: fixed; /* Cambiado de relative a fixed para centrar */
+        top: 50%; /* Centrar verticalmente */
+        left: 50%; /* Centrar horizontalmente */
+        transform: translate(-50%, -50%); /* Ajustar para centrar correctamente */
+        margin: 0; /* Eliminar margen adicional */
+        padding: 1rem; /* Puedes ajustar el padding según tus necesidades */
+        width: 90%; /* Ajustar el ancho para que no sea 100%, sino un poco menos */
+        max-width: 100%;
+        background: white; /* Asegurar fondo blanco u otro color de fondo */
         display: flex;
-        margin-top: 50%;
         justify-content: center;
         flex-direction: column;
-        border: transparent; /* Fondo transparente */
+        border: 1px solid #ccc; /* Añadir borde si es necesario */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra si es necesario */
+        z-index: 1000; /* Asegurar que esté sobre otros elementos */
     }
-       
 }
+
 
 
 .centered-img {
