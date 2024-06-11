@@ -340,6 +340,11 @@ main h6 {
 }
 p {
     text-wrap: pretty;
+    font-family: 'Inter-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
 }
 
 
