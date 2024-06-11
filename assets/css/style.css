@@ -1151,6 +1151,7 @@ a.prev:hover, a.next:hover {
     color: white; /* Asegúrate de que sea visible */
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
     padding: 5px 10px;
+    font-family: 'Inter-Regular';
 }
 
 .modal-content {
@@ -1313,6 +1314,7 @@ a.prev:hover, a.next:hover {
     align-items: center;
     cursor: pointer;
     color: #FFFFFF;
+    font-family: 'Inter-Regular';
     text-decoration: none;
 }
 
@@ -1511,6 +1513,7 @@ a.prev:hover, a.next:hover {
 }
 
 .grey-text {
-    color: #5E6A71;
+    color: #5E6A71 !important;
+    
 }
 
