@@ -917,7 +917,7 @@ hr {
     }
     .card {
         width: 100%; /* Asegura que las tarjetas ocupen todo el ancho disponible */
-        height: auto; /* Ajusta la altura automáticamente */
+        height: 152px; /* Ajusta la altura automáticamente */
     }
 }
 
@@ -1028,6 +1028,9 @@ hr {
 .slide img {
     width: 100%;
     border-radius: 10px;
+    block-size: auto;
+    aspect-ratio: 1 / 1;
+    object-position: center;
 }
 
 a.prev, a.next {
