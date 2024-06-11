@@ -1135,7 +1135,7 @@ a.prev:hover, a.next:hover {
 
 .close {
     position: absolute;
-    top: 15px;
+    top: 0px;
     right: 16px;
     font-size: 32px;
     cursor: pointer;
@@ -1175,8 +1175,7 @@ a.prev:hover, a.next:hover {
         left: 50%; /* Centrar horizontalmente */
         transform: translate(-50%, -50%); /* Ajustar para centrar correctamente */
         margin: 0; /* Eliminar margen adicional */
-        padding: 1rem; /* Puedes ajustar el padding según tus necesidades */
-        width: 90%; /* Ajustar el ancho para que no sea 100%, sino un poco menos */
+        width: 100%; /* Ajustar el ancho para que no sea 100%, sino un poco menos */
         max-width: 100%;
         display: flex;
         justify-content: center;
