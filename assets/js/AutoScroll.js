@@ -7,3 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
           }
      }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+     const targetSection = document.getElementById('target-section');
+     if (targetSection) {
+         targetSection.scrollIntoView({ behavior: 'smooth' });
+     }
+ });
