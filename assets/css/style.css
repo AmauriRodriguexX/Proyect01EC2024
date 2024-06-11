@@ -906,50 +906,21 @@ hr {
     overflow: hidden; /* Añadido para evitar desbordamientos */
 }
 
-@media (max-width: 540px) {
+.grid-slider-p {
+    padding: 8px;
+}
+
+@media (max-width: 480px) {
+    .grid-slider-p {
+        padding: 8px; /* Reduce el padding para pantallas pequeñas */
+        margin-bottom: 4px; /* Ajusta el margen inferior para pantallas pequeñas */
+    }
     .card {
-        width: 50vw;
-        height: 50vw;
-        max-width: 185px;
-        max-height: 185px;
+        width: 100%; /* Asegura que las tarjetas ocupen todo el ancho disponible */
+        height: auto; /* Ajusta la altura automáticamente */
     }
 }
 
-@media (max-width: 413px) {
-    .card {
-        width: 50vw;
-        height: 50vw;
-        max-width: 178px;
-        max-height: 178px;
-    }
-}
-
-@media (max-width: 391px) {
-    .card {
-        width: 50vw;
-        height: 50vw;
-        max-width: 165px;
-        max-height: 165px;
-    }
-}
-
-@media (max-width: 361px) {
-    .card {
-        width: 50vw;
-        height: 50vw;
-        max-width: 146px;
-        max-height: 146px;
-    }
-}
-
-@media (max-width: 376px) {
-    .card {
-        width: 50vw;
-        height: 50vw;
-        max-width: 164px;
-        max-height: 164px;
-    }
-}
 
 .body-content-card {
     margin-top: 16px;
@@ -1052,16 +1023,7 @@ hr {
    color: #5E6A71;
 }
 
-.grid-slider-p {
-    padding: 8px;
-}
 
-@media (max-width: 480px) {
-    .grid-slider-p {
-        padding: 0px;
-        height: 190px;
-    }
-}
 
 .slide img {
     width: 100%;
