@@ -1207,7 +1207,6 @@ a.prev:hover, a.next:hover {
 .centered-img {
     margin: auto;
     display: block;
-    border-radius: 12px;
 }
 
 .gallery-prev,
