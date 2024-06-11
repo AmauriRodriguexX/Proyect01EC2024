@@ -51,38 +51,38 @@
                             <label for="selectEstado" class="form-label">Estado</label>
                             <select id="selectEstado" class="form-select custom-select" aria-label="Default select example">
                                 <option selected>Selecciona un Estado</option>
-                                <option value="1">Aguascalientes</option>
-                                <option value="2">Baja California</option>
-                                <option value="3">Baja California Sur</option>
-                                <option value="4">Campeche</option>
-                                <option value="5">Chiapas</option>
-                                <option value="6">Chihuahua</option>
-                                <option value="7">Ciudad de México</option>
-                                <option value="8">Coahuila</option>
-                                <option value="9">Colima</option>
-                                <option value="10">Durango</option>
-                                <option value="11">Estado de México</option>
-                                <option value="12">Guanajuato</option>
-                                <option value="13">Guerrero</option>
-                                <option value="14">Hidalgo</option>
-                                <option value="15">Jalisco</option>
-                                <option value="16">Michoacán</option>
-                                <option value="17">Morelos</option>
-                                <option value="18">Nayarit</option>
-                                <option value="19">Nuevo León</option>
-                                <option value="20">Oaxaca</option>
-                                <option value="21">Puebla</option>
-                                <option value="22">Querétaro</option>
-                                <option value="23">Quintana Roo</option>
-                                <option value="24">San Luis Potosí</option>
-                                <option value="25">Sinaloa</option>
-                                <option value="26">Sonora</option>
-                                <option value="27">Tabasco</option>
-                                <option value="28">Tamaulipas</option>
-                                <option value="29">Tlaxcala</option>
-                                <option value="30">Veracruz</option>
-                                <option value="31">Yucatán</option>
-                                <option value="32">Zacatecas</option>
+                                <option value="Aguascalientes">Aguascalientes</option>
+                                <option value="BajaCalifornia">Baja California</option>
+                                <option value="BajaCaliforniaSur">Baja California Sur</option>
+                                <option value="Campeche">Campeche</option>
+                                <option value="Chiapas">Chiapas</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="CiudadDeMexico">Ciudad de México</option>
+                                <option value="Coahuila">Coahuila</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Durango">Durango</option>
+                                <option value="EstadoDeMexico">Estado de México</option>
+                                <option value="Guanajuato">Guanajuato</option>
+                                <option value="Guerrero">Guerrero</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                                <option value="Jalisco">Jalisco</option>
+                                <option value="Michoacan">Michoacán</option>
+                                <option value="Morelos">Morelos</option>
+                                <option value="Nayarit">Nayarit</option>
+                                <option value="NuevoLeon">Nuevo León</option>
+                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Puebla">Puebla</option>
+                                <option value="Queretaro">Querétaro</option>
+                                <option value="QuintanaRoo">Quintana Roo</option>
+                                <option value="SanLuisPotosi">San Luis Potosí</option>
+                                <option value="Sinaloa">Sinaloa</option>
+                                <option value="Sonora">Sonora</option>
+                                <option value="Tabasco">Tabasco</option>
+                                <option value="Tamaulipas">Tamaulipas</option>
+                                <option value="Tlaxcala">Tlaxcala</option>
+                                <option value="Veracruz">Veracruz</option>
+                                <option value="Yucatan">Yucatán</option>
+                                <option value="Zacatecas">Zacatecas</option>
                             </select>
                         </div>
                     </form>
@@ -132,6 +132,14 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById('selectEstado').addEventListener('change', function() {
+            const selectedValue = this.value;
+            if (selectedValue !== "Selecciona un Estado") {
+                window.location.href = `https://amaurirodriguexx.github.io/Proyect01EC2024/selecion-estados.html?estado=${selectedValue}`;
+            }
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
