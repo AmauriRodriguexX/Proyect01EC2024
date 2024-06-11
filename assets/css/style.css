@@ -344,6 +344,7 @@ p {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    color: #252A2D;
 }
 
 
@@ -870,9 +871,11 @@ hr {
 }
 
 .p-title {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px;
+    font-family: Inter-SemiBold;
+    font-size: 18px !important;
+    font-weight: 600!important;
+    line-height: 28px!important;
+    color: #252A2D!important;
 }
 
 
@@ -1019,7 +1022,7 @@ hr {
 }
 
 .slider-title .titlte-01 .tittle-s {
-   font-family: Inter-Regular;
+   font-family: Iter-Reular;
    font-size: 18px;
    font-weight: 400;
    line-height: 28px;
@@ -1030,6 +1033,7 @@ hr {
 
 
 .slide img {
+    font-family: Iter-Regular;
     width: 100%;
     border-radius: 10px;
     block-size: auto;
@@ -1315,4 +1319,26 @@ a.prev:hover, a.next:hover {
 
 .icon-share::before {
     content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-share" viewBox="0 0 16 16"><path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11.025 2.075A2.498 2.498 0 0 1 13.5 1a2.5 2.5 0 1 1-2.475 2.574l-4.212 2.457a2.501 2.501 0 1 1 0 3.938l4.212 2.457a2.5 2.5 0 1 1-.492.87l-4.213-2.457A2.501 2.501 0 1 1 3.5 8a2.5 2.5 0 1 1 1.319-4.574l4.213-2.457a2.502 2.502 0 0 1 1.993-.894zM2 8a1.5 1.5 0 1 0 3.002-.001A1.5 1.5 0 0 0 2 8zm9 5.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"/></svg>');
+}
+
+.form-select {
+    --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    display: block;
+    color: #5E6A71;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    background-color: var(--bs-body-bg);
+    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
