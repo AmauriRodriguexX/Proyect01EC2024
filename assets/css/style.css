@@ -197,6 +197,16 @@ a {
     font-style: normal;
     font-display: swap;
 }
+
+/*  Bree  */
+@font-face {
+    font-family: 'Bree-SemiBold';
+    src: url('../fonts/Bree/bree-semibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face {
     font-family: 'BreeExtrabold';
     src: url('../fonts/Bree/BreeExtrabold.otf');
@@ -318,7 +328,7 @@ main h2 {
 main h3 {
     font-size: 32px; /* Tamaño de fuente para h3 */
     color: #CE0058;
-    font-family: 'BreeBold';
+    font-family: 'Bree-SemiBold';
 }
 
 main h4 {
@@ -825,6 +835,7 @@ label {
     font-weight: 600;
     line-height: 28px;
     text-align: left;
+    color: #252A2D;
 
 }
 .navbar-brand {
@@ -934,6 +945,12 @@ hr {
         width: 100%; /* Asegura que las tarjetas ocupen todo el ancho disponible */
         height: 152px; /* Ajusta la altura automáticamente */
     }
+    .card-img-top {
+        width: 100%;
+        padding: 0px;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
 }
 
 
@@ -957,7 +974,7 @@ hr {
 
 .card-img-top {
     width: 100%;
-    height: 200px;
+    padding: 4px;
     object-fit: cover;
     transition: transform 0.5s ease; /* Transición para el efecto de zoom */
 }
@@ -1160,11 +1177,9 @@ a.prev:hover, a.next:hover {
         padding: 1rem; /* Puedes ajustar el padding según tus necesidades */
         width: 90%; /* Ajustar el ancho para que no sea 100%, sino un poco menos */
         max-width: 100%;
-        background: white; /* Asegurar fondo blanco u otro color de fondo */
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid #ccc; /* Añadir borde si es necesario */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra si es necesario */
         z-index: 1000; /* Asegurar que esté sobre otros elementos */
     }
@@ -1493,5 +1508,9 @@ a.prev:hover, a.next:hover {
         align-items: center;
         margin-bottom: 0px;
     }
+}
+
+.grey-text {
+    color: #5E6A71;
 }
 
